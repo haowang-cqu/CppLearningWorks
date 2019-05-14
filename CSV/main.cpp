@@ -19,7 +19,7 @@ int main()
         }
         cout << endl;
     }
-    cout << "将Bob的密码改为765432~~~" << endl;
+    cout << "将Bob的密码修改为765432" << endl;
     for (int i = 0; i < csv.getRow(); i++)
     {
         if (file[i][0] == "Bob")
